@@ -1,28 +1,22 @@
-# humanfia.github.io
+# docs.humanfia.ai (retired)
 
-The organisation GitHub Pages site for Humanfia, served at
-[docs.humanfia.ai](https://docs.humanfia.ai/).
+This repository was the organisation GitHub Pages site for Humanfia, `humanfia.github.io`, with
+the domain docs.humanfia.ai. It redirected the root to humanfia.ai, and the project
+repositories' Pages were served under it: `docs.humanfia.ai/humanize/`,
+`docs.humanfia.ai/kda-wishlist/`.
 
-Its own content is one page: `index.html` redirects the root of `docs.humanfia.ai` to
-[humanfia.ai](https://humanfia.ai/), keeping the query string and fragment. Because this is the
-organisation's Pages site and `CNAME` gives it the custom domain, the project Pages of the
-other `humanfia` repositories are served under the same domain, at the repository's name:
+On 2026-11-17 the organisation's Pages site became
+[humanfia/humanfia.github.io](https://github.com/humanfia/humanfia.github.io), the repository of
+[humanfia.ai](https://humanfia.ai/) itself, so every project's site is now at
+`humanfia.ai/<repository>/`:
 
-- [docs.humanfia.ai/humanize/](https://docs.humanfia.ai/humanize/), from
+- [humanfia.ai/humanize/](https://humanfia.ai/humanize/), from
   [humanfia/humanize](https://github.com/humanfia/humanize)
-- [docs.humanfia.ai/kda-wishlist/](https://docs.humanfia.ai/kda-wishlist/), from
+- [humanfia.ai/kda-wishlist/](https://humanfia.ai/kda-wishlist/), from
   [humanfia/kda-wishlist](https://github.com/humanfia/kda-wishlist)
 
-Changing `CNAME` moves every one of those sites with it. `.nojekyll` publishes the files as they
-are, so this README is not turned into a page.
-
-## Usage
-
-There is nothing to build: GitHub Pages publishes the root of `main` on every push.
-
-## Contributing
-
-See the [contributing guide](https://github.com/humanfia/.github/blob/main/CONTRIBUTING.md).
+docs.humanfia.ai answers nothing any more. This repository was renamed out of the way, its Pages
+were turned off, and it is archived.
 
 ## License
 
